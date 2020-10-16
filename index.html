@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Nido </title>
+  <link rel="icon" type="image/png" sizes="16x16" href="nido.png">
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+</head>
+
+<body>
+  <span class="container">
+    <div id="scroll-pg">
+      <div id="landing-page" data-stellar-ratio="2" data-stellar-background-ratio="0.5">
+        <img src="./nido3.png" alt="logo Nido" id="logo1">
+        <img src="./pulseira.png" alt="imagem pulseira do Nido" id="img-pulseira">
+      </div>
+      <div id="txt-teste"  data-stellar-ratio="0.5">         
+        <p id="titulo"> Com medo de soltar seus filhotes? Deixa com o Nido. </p>
+        <p id="titulo2"> Cuidado nunca é demais: seja notificado se seu filho sair de perto com um monitoramento infantil saudável e seguro. </p>
+        <a id="saiba" href="#home"> Saiba Mais </a>
+      </div>
+    </div>  
+    <nav class="navbar">  
+        <ul id="menu" class="hidden">
+          <li> <a class="item-menu  active" href="#scroll-pg">HOME</a> </li>
+          <li> <a class="item-menu" href="#home">OBJETIVO</a> </li>
+          <li> <a class="item-menu" href="#sobre">SOBRE</a> </li>
+          <li> <a class="item-menu" href="#funcoes">FUNÇÕES</a> </li>
+          <li> <a class="item-menu" href="#info-disp">COMPRAR</a> </li>
+        </ul>
+    </nav>
+    <section id="home">
+      <span id="txt-home">
+        <p id="home-txt-1"> Acreditamos que cada momento deve ser <br> vivido intensamente e livre de preocupações! </p>
+        <p id="home-txt-2"> Pensando nisso, Nido surgiu para trazer <br> tranquilidade, segurança e conforto <br>
+        em todos os momentos em família. </p>
+      </span>
+      <img id="img-ill1" src="./1.png" class="animation show-on-scroll">
+      <div id="bola1"></div>   
+    </section>
+    <section id="sobre">
+      <img id="img-ill2" src="./2.png" class="animation show-on-scroll">
+      <p id="sobre-txt-1"> Seu aplicativo Nido estará conectado à pulseira usada por seu filho. Se ele se afastar mais que uma determinada distância, você é notificado <br> e imediatamente recebe sua a localização!</p>     
+    </section>   
+    <div id="bola2"> <img id="img-ill3" src="./ill3.3.png" class="animation show-on-scroll"> </div>    
+      
+    <section id="funcoes">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="textos-telas">
+              <p class="funcoes-1">Localização em tempo real</p>
+              <p class="funcoes-2">Seja no shopping, na praia ou no<br>parque, saiba onde seus filhos<br>estão e trace a rota até eles!</p>
+            </div>
+            <img class="telas" src="./tela1.png">
+          </div>
+        <div class="swiper-slide">
+          <div class="textos-telas">
+            <p class="funcoes-1">Dados da pulseira</p>
+            <p class="funcoes-2">Verifique a qualquer momento o<br>status da bateria do dispositivo e<br>a que distância ele está de você.</p>
+          </div>              
+          <img class="telas" src="./tela2.png">
+        </div>
+        <div class="swiper-slide">
+          <div class="textos-telas">
+            <p class="funcoes-1">Adicione quantas pulseiras quiser</p>
+            <p class="funcoes-2">Vai passear com a turma toda?<br>É só conectar a criançada em<br>seu Nido e aproveitar.</p>
+          </div>              
+          <img class="telas" src="./tela3.png">
+        </div>
+        <div class="swiper-slide">
+          <div class="textos-telas">
+            <p class="funcoes-1">Distância máxima segura</p>
+            <p class="funcoes-2">Escolha até quantos metros seu<br>filho pode se afastar de você.<br>Recomendamos que essa<br>escolha seja baseada na idade.</p>           
+          </div>              
+          <img class="telas" src="./tela4.png">
+        </div>
+        <div class="swiper-slide">
+          <div class="textos-telas">
+            <p class="funcoes-1">Avisos</p>
+            <p class="funcoes-2">Seja instantaneamente notificado<br>caso seu filho se distancie mais<br>que o definido ou pressione o<br>botão de emergência.</p>
+          </div>              
+          <img class="telas" src="./tela5.png">
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>  
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <div id="ill4" >
+    <img src="./4.png" alt="filho vendo a borboleta, com sinal de localização em cima" id="img-ill4" class="animation show-on-scroll">
+  </div>
+  <section id="disponivel">
+    <div id="info-disp">
+      <p id="txt-disp"> Disponível para </p>
+      <span id="img-disp">
+        <img src="./apple.png" alt="Apple Store" class="store">
+        <img src="./google.png" alt="Play Store" class="store">
+        <img src="./amazon.png" alt="Amazon Store" class="store">
+      </span>
+      <p id="txt-disp-2"> Receba as novidades do Nido! </p>
+      <input type="email" placeholder="Seu email" id="email">
+      <input type="submit" value="Enviar" id="enviar">
+    </div>   
+    <div id="top">
+        <a href="#scroll-pg"> <img src="./voltar.svg"  alt="ir para o inicio" class="seta inicio"> </a>
+        <p> Voltar ao topo </p>
+      </div>
+    </section>
+    <footer id="rodape"> 
+      <img src="./nidobco.svg" alt="logo Nido em branco" id="logobco">
+      <span class="info-rodape">
+        <p class="titulo-rodape"> SOBRE O NIDO </p>
+        <p class="sub-rodape"> Termos de Uso </p>
+        <p class="sub-rodape"> Política de Privacidade </p>
+      </span>
+      <span class="info-rodape">
+        <p class="titulo-rodape"> SHOP NIDO </p>
+        <p class="sub-rodape"> Onde Comprar </p>
+      </span>
+      <span class="info-rodape">
+        <p class="titulo-rodape"> CONTATO </p>
+        <p class="sub-rodape"> Live Chat </p>
+        <p class="sub-rodape"> support@nido.me </p>
+        <p class="sub-rodape"> (11) 3456-8756 </p>
+      </span>      
+    </footer>
+    <p id="direitos">® 2020 NIDO. All Rights Reserved</p>
+  </span>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
